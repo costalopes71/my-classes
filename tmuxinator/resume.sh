@@ -12,7 +12,7 @@
 # Usage example:
 #   $ resume vi
 #   $ resume top
-#		$ resume tmux
+#   $ resume tmux
 #
 # In the above examples, a resume of vi commands will be printed and a resume of top commands will be printed.
 #
