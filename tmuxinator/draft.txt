@@ -1,0 +1,24 @@
+comeca com slide apresentando minha tela e depois paro de apresentar para o aluno focar no terminal DELE (aula pratica)
+
+1.) o que eh o tmux
+
+PRATICA
+
+2.) setup
+- tem tmux na maquina? $ tmux -V
+  - se nao: sudo apt-get install tmux
+- tem o arquivo .tmux.conf na home ? ll ~/.tmux.conf
+  - se nao: touch ~/.tmux.conf
+- tem link simbolico apontando para ~/dev/dotfiles/tmuxinator ?
+  - se sim: remova
+- tem o diretorio ~/.tmuxinator ? ll ~/.tmuxinator
+- tem link simbolico apontando para ~/dev/dotfiles/tmux.conf ?
+  - se sim: remova
+- tem o repositorio dotfiles? se nao tiver clone
+
+DUVIDA: quando instalo a primeira vez o tmux, onde ele poe o arquivo de conf? na home?
+
+3.) basico
+- criar uma nova sessao nao nomeada $ tmux
+- criar um novo panel horizontal
+- criar um novo panel vertical
